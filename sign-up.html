@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Sing up - Be More Productive</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo"><a href="index.html"><img src="img/logo.svg" alt="logo"></a></div>
+    <ul class="nav-list">
+      <li><a href="index.html" class="nav-links">Home</a></li>
+      <li><a href="about.html" class="nav-links">About</a></li>
+      <li class="is-active"><a href="sign-up.html" class="nav-links">Sign Up</a></li>
+      <li><a href="contact.html" class="nav-links">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="sign-up animate-in">
+      <div class="page-content">
+        <div class="page-img">
+          <img src="img/sign-up.png" alt="sign-up">
+        </div>
+        <div class="page-presentation">
+          <h2>Sign Up</h2>
+          <hr>
+          <p>Fill in the form to join us. We're waiting for you!</p>
+
+          <div class="form">
+            <input type="text" name="name" autocomplete="off" required>
+            <label for="name" class="input-label">
+              <span class="content">Name</span>
+            </label>
+          </div>
+          <div class="form">
+            <input type="text" name="surname" autocomplete="off" required>
+            <label for="surname" class="input-label">
+              <span class="content">Surname</span>
+            </label>
+          </div>
+          <div class="form">
+            <input type="email" name="email" autocomplete="off" required>
+            <label for="email" class="input-label">
+              <span class="content">E-mail</span>
+            </label>
+          </div>
+          <div class="form">
+            <input type="number" name="age" min="18" autocomplete="off" required>
+            <label for="age" class="input-label">
+              <span class="content">Age</span>
+            </label>
+          </div>
+          <div class="form">
+            <input type="text" name="profession" autocomplete="off" required>
+            <label for="profession" class="input-label">
+              <span class="content">Profession</span>
+            </label>
+          </div>
+
+
+          <a href="#"><button>Join!</button></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Copyright IG 2021 - <a href="#">Github</a> - <a
+        href="https://www.figma.com/file/gcrS9qLM8CB5b0odvZYuWh/Webinar-page" target="blank">Figma</a></span></footer>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
