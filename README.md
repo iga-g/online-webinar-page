@@ -5,4 +5,4 @@ I wanted to practice design, variables in css and cool inputs. Also used a littl
 
 ## Roadmap
 
-I would like to develop my skills with forms.
+I would like to add burger for nav to make it fully responsive menu. Also I want to develop my skills with forms.
